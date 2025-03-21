@@ -2,7 +2,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace MicroService.Template.AppHost.DependencyInjection;
 
-public static class ServiceCollectionExtensions
+public static class ConfigureServiceExtensions
 {
     public static IServiceCollection AddAppHostDependencies(this IServiceCollection services)
     {

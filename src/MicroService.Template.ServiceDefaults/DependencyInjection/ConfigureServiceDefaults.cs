@@ -3,7 +3,7 @@
     using Microsoft.Extensions.DependencyInjection;
     using Microsoft.Extensions.Hosting;
 
-    public static partial class ConfigureServiceDefaults
+    public static class ConfigureServiceDefaults
     {
         /// <summary>
         /// The AddServiceDefaults.
